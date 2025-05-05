@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: orange !important;
+    overflow-x: hidden;
+}
+
+header{
+    height: fit-content;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+.first-header{
+    padding: 5px 0;
+    background-color: white;
+}
+/* 
+header{
+    width: 100%;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+}
+
+.containerGif{
+    margin-left: 6.5%;
+}
+
+.header__content{
+    background-color: #ededed;
+    height: fit-content;
+    width: 100%;
+}  */
+
+/* Navbar container */
+/* .navbar {
+    background-color: #fff !important;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+
+
+/* Search input and button */
+.search-bar input,
+.search-bar button {
+    height: 45px;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    margin-left: -10% !important;
+    width: 90% !important;
+}
+
+.search-bar button {
+    box-shadow: 0px 0px 5px 0px #000;
+    background-color: #ffc107;
+    color: white;
+    margin-left: 10px;
+    border: none;
+}
+input{
+    margin-right: -50% !important;
+    width: 30rem !important;
+}
+
+/* Dropdown menus */
+.dropdown{
+    position: relative;
+}
+
+.dropdown__help{
+    position: relative;
+}
+
+
+/* This allows dropdowns to sit horizontally */
+.navbar .dropdown {
+    margin-left: -60%;
+    width: 8em;
+}
+
+.navbar .dropdown__help {
+    margin-left: 10%;
+}
+
+.navbar .dropdown__help:hover{
+    color: orange;
+}
+.navbar .dropdown:hover{
+    color: orange;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 20% 55% 20%;
+    gap: 1em;
+}
+
+
+.grid3{
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+     padding: 10px;
+}
+.grid3-one{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.grid3-two{
+    background-color: blue;
+   
+}
+.call{
+    display: flex;
+    gap: 5px;
+}
+.sell{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.send{
+    display: flex;
+}
+.call-icon{
+    border: 1px solid orange;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six-divs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    
+}
+.awoof-grid{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    text-align: left;
+}
+.awoof-grid .li{
+    margin-right: 10px;
+}
+.awoof-grid:hover{
+    box-shadow: 3px 3px 5px 3px gray;
+}
+.carousel-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+   
+}
+.main-third{
+    background-color: white;
+}
+.timer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(158, 6, 6);
+    color: white;
+    
+}
+
+
+/* responsiveness */
+/* style.css */
+/* 
+@media (max-width: 768px) {
+    .search-bar {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .search-bar input {
+      width: 100%;
+    }
+  
+    .search-bar button {
+      width: 100%;
+    }
+  }
+   */

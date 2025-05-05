@@ -1,0 +1,230 @@
+/* responsiveness.css */
+@media (max-width: 480px) {
+    body {
+        background-color: red !important;
+        overflow-x: hidden;
+    }
+
+    /* First header adjustments */
+    .first-header {
+        padding: 5px 0;
+        display: none;
+    }
+
+    .first-header .container {
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .first-header .jumia {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+
+    .first-header .jumialogo {
+        flex-wrap: wrap;
+        gap: 10px !important;
+    }
+
+    /* Main header adjustments */
+    header.header {
+        padding: 10px 0 !important;
+    }
+
+    header .container {
+        flex-direction: column !important;
+        gap: 15px;
+    }
+
+    header .d-flex.justify-content-center.align-items-center {
+        justify-content: space-between !important;
+        width: 100%;
+    }
+
+    /* Search bar adjustments */
+    .d-flex.flex-column.flex-md-row {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    input.form-control {
+        width: 100% !important;
+        margin-right: 0 !important;
+        border-radius: 50px;
+    }
+
+    .btn-box{
+        display: none !important;
+    }
+
+    /* Navigation icons */
+    .dropdown {
+        margin: 0 5px;
+    }
+
+    /* Main content grid */
+    .container.d-flex.mt-3 {
+        flex-direction: column;
+        gap: 20px !important;
+    }
+
+    .grid1 {
+        width: 100% !important;
+        height: auto !important;
+        padding-bottom: 0 !important;
+    }
+
+    .grid1 .d-grid {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .grid2 {
+        width: 100% !important;
+    }
+
+    .grid3 {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Carousel adjustments */
+    .carousel-item img {
+        height: 200px !important;
+    }
+
+    /* Six-divs grid */
+    .six-divs {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    /* Flash sales section */
+    .main-third.container {
+        padding: 0;
+    }
+
+    .carousel-grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    /* Timer section */
+    .container.mt-4 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Tablet styles */
+    body {
+        background-color: orange !important;
+    }
+
+    /* Header adjustments */
+    header .container {
+        flex-wrap: wrap;
+    }
+
+    .d-flex.flex-column.flex-md-row {
+        order: 3;
+        width: 100% !important;
+        margin-top: 15px;
+        margin-right: 0 !important;
+    }
+
+    /* Main grid layout */
+    .container.d-flex.mt-3 {
+        flex-wrap: wrap;
+    }
+
+    .grid1 {
+        width: 30% !important;
+    }
+
+    .grid2 {
+        width: 65% !important;
+    }
+
+    .grid3 {
+        width: 100% !important;
+        margin-top: 20px;
+        flex-direction: row !important;
+    }
+
+    .grid3-one, .grid3-two {
+        width: 50%;
+    }
+
+    /* Six-divs grid */
+    .six-divs {
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Flash sales carousel */
+    .carousel-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Small desktop/large tablet adjustments */
+    .d-flex.flex-column.flex-md-row {
+        margin-right: 0 !important;
+        width: 50% !important;
+    }
+
+    input.form-control {
+        width: 100% !important;
+    }
+
+    /* Six-divs grid */
+    .six-divs {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    /* Flash sales carousel */
+    .carousel-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+/* Additional utility classes for responsiveness */
+@media (max-width: 768px) {
+        .hide-on-mobile {
+        display: none !important;
+    }  
+
+    
+    .btn-box{
+        display: none !important;
+    }
+
+    body {
+        background-color: red !important;
+        overflow-x: hidden;
+    }
+
+    .first-header {
+        padding: 5px 0;
+        display: none;
+    }
+
+    
+}
+
+@media (min-width: 769px) {
+    .hide-on-desktop {
+        display: none !important;
+    }
+
+    input.form-control {
+        width: 600px !important;
+        margin-right: 0 !important;
+      
+    }
+}
