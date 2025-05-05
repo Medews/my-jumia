@@ -71,7 +71,7 @@
 
     .grid1 {
         width: 100% !important;
-        height: auto !important;
+        height: fit-content !important;
         padding-bottom: 0 !important;
     }
 
@@ -82,6 +82,7 @@
 
     .grid2 {
         width: 100% !important;
+       
     }
 
     .grid3 {
@@ -138,20 +139,26 @@
     /* Main grid layout */
     .container.d-flex.mt-3 {
         flex-wrap: wrap;
+       
     }
 
     .grid1 {
         width: 30% !important;
+        display: none;
     }
 
     .grid2 {
-        width: 65% !important;
+        width: 100% !important;
+    
+
+        
     }
 
     .grid3 {
         width: 100% !important;
         margin-top: 20px;
         flex-direction: row !important;
+        display: none;
     }
 
     .grid3-one, .grid3-two {
@@ -160,14 +167,14 @@
 
     /* Six-divs grid */
     .six-divs {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         justify-content: center;
         align-items: center;
     }
 
     /* Flash sales carousel */
     .carousel-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 }
 
@@ -209,6 +216,18 @@
         overflow-x: hidden;
     }
 
+    .grid1 {
+        width: 30% !important;
+        display: none;
+    }
+    
+    .grid3 {
+        width: 100% !important;
+        margin-top: 20px;
+        flex-direction: row !important;
+        display: none;
+    }
+
     .first-header {
         padding: 5px 0;
         display: none;
@@ -227,4 +246,9 @@
         margin-right: 0 !important;
       
     }
+    
+  /* .grid1 {
+    width: 30% !important;
+    display: none;
+   } */
 }
